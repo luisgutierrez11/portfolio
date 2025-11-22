@@ -1,6 +1,4 @@
-import fotoPerfil from '../assets/perfil-luis1x1.jpg'
-
-const HeroSection = () => {
+const HeroSection = ({fotoPerfil}) => {
     return (
     <section id='hero' className="max-w-5xl mx-auto px-4 pt-32 pb-28 min-w-[280px]">
         <div className="flex flex-col gap-6">

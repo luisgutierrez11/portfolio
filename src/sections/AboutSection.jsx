@@ -1,7 +1,4 @@
-import profileBig from '../assets/perfil-luis1x1.jpg'
-// import profileBig from "../assets/perfil-informal-edit.jpeg"
-
-const AboutSection = () => {
+const AboutSection = ({fotoPerfil}) => {
   return (
     <section id="about" className="max-w-5xl mx-auto px-4 py-24">
       <h3 className="text-3xl font-bold mb-8">Sobre mí</h3>
@@ -14,7 +11,7 @@ const AboutSection = () => {
           shadow-lg shadow-cyan-500/10
         ">
           <img 
-            src={profileBig}
+            src={fotoPerfil}
             alt="Luis Gutierrez foto"
             className="
               w-64 h-64 md:w-80 md:h-80 object-cover rounded-3xl mx-auto

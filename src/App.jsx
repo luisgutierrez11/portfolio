@@ -1,10 +1,10 @@
-// import { useState } from "react"
 import Navbar from "./components/Navbar"
 import AboutSection from "./sections/AboutSection"
 import ContactSection from "./sections/ContactSection"
 import HeroSection from "./sections/HeroSection"
 import ProjectsSection from "./sections/ProjectsSection"
 import TechBentoGrid from "./components/TechBentoGrid"
+import photo from './assets/perfil-luis1x1.jpg'
 
 const App = () => {
 
@@ -18,7 +18,7 @@ const App = () => {
         <Navbar />
 
         {/* Hero Section */}
-        <HeroSection />
+        <HeroSection fotoPerfil={photo} />
         
         {/* Tech Stack Section */}
         <TechBentoGrid />
@@ -27,7 +27,7 @@ const App = () => {
         <ProjectsSection />
 
         {/* About Section */}
-        <AboutSection />
+        <AboutSection fotoPerfil={photo} />
 
         {/* Contact Section */}
         <ContactSection />
