@@ -4,7 +4,7 @@ import ContactSection from "./sections/ContactSection"
 import HeroSection from "./sections/HeroSection"
 import ProjectsSection from "./sections/ProjectsSection"
 import TechBentoGrid from "./components/TechBentoGrid"
-import photo from './assets/perfil-luis1x1.jpg'
+import photo from './assets/Perfil-luis1x1.jpg'
 
 const App = () => {
 
