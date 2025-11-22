@@ -1,4 +1,5 @@
-import profileBig from "../assets/perfil-informal-edit.jpeg"
+import profileBig from '../assets/perfil-luis1x1.jpg'
+// import profileBig from "../assets/perfil-informal-edit.jpeg"
 
 const AboutSection = () => {
   return (
@@ -8,15 +9,20 @@ const AboutSection = () => {
       <div className="grid md:grid-cols-2 gap-10 items-center">
         
         {/* FOTO */}
-        <img 
-          src={profileBig}
-          alt="Luis Gutierrez foto"
-          className="
-            w-64 h-64 md:w-80 md:h-80 object-cover rounded-3xl mx-auto
-            shadow-lg shadow-cyan-500/10 border border-neutral-800
-            rotate-3
-          "
-        />
+        <div className="
+          border border-neutral-900 p-4 rounded-3xl rotate-3 group w-fit mx-auto
+          shadow-lg shadow-cyan-500/10
+        ">
+          <img 
+            src={profileBig}
+            alt="Luis Gutierrez foto"
+            className="
+              w-64 h-64 md:w-80 md:h-80 object-cover rounded-3xl mx-auto
+              shadow-lg shadow-cyan-500/10 border border-neutral-800
+              rotate-group
+            "
+          />
+        </div>
 
         {/* TEXTO */}
         <div className="flex flex-col gap-6">
@@ -48,14 +54,18 @@ const AboutSection = () => {
             <a 
               href="/cv.pdf" 
               download
-              className="px-5 py-3 bg-cyan-500 text-neutral-900 rounded-xl font-semibold hover:bg-cyan-400 transition"
+              className="
+                px-5 py-3 bg-cyan-500 text-neutral-900 rounded-xl font-semibold 
+                hover:bg-cyan-400 hover:scale-95 transition"
             >
               Descargar CV
             </a>
 
             <a 
               href="#contact"
-              className="px-5 py-3 border border-neutral-700 hover:border-cyan-400 rounded-xl font-semibold transition"
+              className="
+                px-5 py-3 border border-neutral-700 hover:border-cyan-400 rounded-xl 
+                font-semibold hover:scale-105 transition"
             >
               Contacto
             </a>

@@ -20,10 +20,10 @@ const Navbar = () => {
                     <a href='#tech'>Tech Stack</a>
                 </li>
                 <li className="hover:text-cyan-400 transition-colors cursor-pointer">
-                    <a href="#about">Sobre mí</a>
+                    <a href="#projects">Proyectos</a>
                 </li>
                 <li className="hover:text-cyan-400 transition-colors cursor-pointer">
-                    <a href="#projects">Proyectos</a>
+                    <a href="#about">Sobre mí</a>
                 </li>
                 <li className="hover:text-cyan-400 transition-colors cursor-pointer">
                     <a href="#contact">Contacto</a>

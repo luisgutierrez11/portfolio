@@ -14,7 +14,8 @@ export default function Contact() {
           <a
             href="mailto:luis.gut.11jm@gmail.com"
             className="
-                text-lg font-medium text-indigo-400 hover:text-indigo-300 transition
+                text-lg font-medium text-indigo-400 hover:text-indigo-300 
+                hover:scale-105 transition
             ">
             luis.gut.11jm@gmail.com 📩
           </a>
@@ -24,7 +25,7 @@ export default function Contact() {
             <a
               href="https://github.com/luisgutierrez11"
               target="_blank"
-              className="hover:text-white transition"
+              className="hover:scale-110 transition"
             >
               <svg className='size-12'>
                 <use href={`${spriteUrl}#github`} />
@@ -33,7 +34,7 @@ export default function Contact() {
             <a
               href="https://www.linkedin.com/in/luis-guti%C3%A9rrez-90b4a52b7/"
               target="_blank"
-              className="hover:text-white transition"
+              className="hover:scale-110 transition"
             >
               <svg className='size-12'>
                 <use href={`${spriteUrl}#linkedin`} />

@@ -1,6 +1,4 @@
-// import reactIcon from '../assets/react.svg'
-// import spriteUrl from '../assets/sprites.svg?url' 
-import fotoPerfil from '../assets/perfil-informal-edit.jpeg'
+import fotoPerfil from '../assets/perfil-luis1x1.jpg'
 
 const HeroSection = () => {
     return (
@@ -38,15 +36,6 @@ const HeroSection = () => {
                 construir aplicaciones modernas, rápidas y con buen diseño.
             </p>
 
-            {/* <svg className="w-12 h-12">
-                <use href={reactIcon} />
-            </svg>          
-
-            <svg className="w-12 h-12 fill-white">
-                <use href={`${spriteUrl}#verified`} />
-            </svg>      */}
-
-
             <div className="flex gap-4 mt-4">
                 <a
                     href="#projects"
@@ -59,7 +48,7 @@ const HeroSection = () => {
                 <a
                     href="#contact"
                     className="border border-neutral-700 hover:border-cyan-400 px-6 
-                    py-3 rounded-xl font-semibold transition hover:scale-95
+                    py-3 rounded-xl font-semibold transition hover:scale-105
                 ">
                     Contacto
                 </a>
