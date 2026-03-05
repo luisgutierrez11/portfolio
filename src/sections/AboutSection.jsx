@@ -49,7 +49,7 @@ const AboutSection = ({fotoPerfil}) => {
 
           <div className="flex gap-4 mt-4">
             <a 
-              href="/CV_Desarrollador_LuisGutierrez.pdf" 
+              href="/LuisGutierrez[CV].pdf" 
               download
               className="
                 px-5 py-3 bg-cyan-500 text-neutral-900 rounded-xl font-semibold 
