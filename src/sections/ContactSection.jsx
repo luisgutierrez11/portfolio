@@ -32,7 +32,7 @@ export default function Contact() {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/in/luis-guti%C3%A9rrez-90b4a52b7/"
+              href="https://www.linkedin.com/in/luis-gutierrez-dev11/"
               target="_blank"
               className="hover:scale-110 transition"
             >
